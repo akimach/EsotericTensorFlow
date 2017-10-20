@@ -2,6 +2,8 @@
 
 TensorFlow's graph is Turing complete.
 
+![Esoteric Tensorflow](./esotf.png)
+
 ## Requirements
 
 * TensorFlow 1.2.0+
