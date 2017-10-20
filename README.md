@@ -1,5 +1,7 @@
 # Esoteric Tensorflow
 
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+
 TensorFlow's graph is Turing complete.
 
 <p align="center"><img src="./esotf.png" alt="Logo" width="200"/></p>
