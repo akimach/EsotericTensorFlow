@@ -2,7 +2,7 @@
 
 TensorFlow's graph is Turing complete.
 
-![Esoteric Tensorflow](./esotf.png)
+<p align="center"><img src="./esotf.png" alt="Logo" width="200"/></p>
 
 ## Requirements
 
