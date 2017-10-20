@@ -2,6 +2,10 @@
 
 TensorFlow's graph is Turing complete.
 
+## Requirements
+
+* TensorFlow 1.2.0+
+
 ## Algorithms implemented in TensorFlow
 
 ### Basic
