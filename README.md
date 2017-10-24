@@ -43,6 +43,10 @@ TensorFlow's graph is Turing complete.
 - [x] Brainfuck
 - [ ] Whitespace
 
+## See Also
+
+* [Esoteric TensorFlow - Medium](https://medium.com/@akimach/esoteric-tensorflow-b14fd97a260f)
+
 ## License
 
 [MIT](https://github.com/akimach/EsotericTensorFlow/blob/master/LICENSE)
