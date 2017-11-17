@@ -7,12 +7,14 @@ import tensorflow as tf
 
 
 class FizzBuzz():
-    def __init__(self, length=30):
+    """FizzBuzz"""
+    def __init__(self, length=30, name=None):
         self.length = length
-        self.array = tf.Variable([str(i) for i in range(1, length+1)], dtype=tf.string, trainable=False)
-        self.graph = tf.while_loop(self.cond, self.body, [1, self.array],
-                            shape_invariants=[tf.TensorShape([]), tf.TensorShape(self.length)],
-                            back_prop=False)
+        with tf.name_scope(name):
+            self.array = tf.Variable([str(i) for i in range(1, length+1)], dtype=tf.string, trainable=False)
+            self.graph = tf.while_loop(self.cond, self.body, [1, self.array],
+                                shape_invariants=[tf.TensorShape([]), tf.TensorShape(self.length)],
+                                back_prop=False)
 
     def run(self):
         with tf.Session() as sess:
